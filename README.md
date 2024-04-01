@@ -1,5 +1,7 @@
 # Exploring Python `setup.py` Risks
 
+This repo supports blog post [How Bad is setup.py?](https://tempered.works/posts/2024/03/31/how-bad-is-setuppy/)
+
 ## Package Setup
 
 Directory [package](./package) contains a minimal Python package, with print statements to illustrate sites for malicious code.
@@ -62,6 +64,7 @@ Processing /home/paul/projects/brabster/example_package_brabster/package/dist/de
   writing src/demo_package.egg-info/PKG-INFO
   writing dependency_links to src/demo_package.egg-info/dependency_links.txt
 ```
+
 
 
 
